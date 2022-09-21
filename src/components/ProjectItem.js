@@ -1,8 +1,8 @@
 import React from "react";
 
 function ProjectItem({ name, about, technologies }) {
-  const technologiesList = technologies.map((tech)=> (
-    <span key={tech}>{tech}</span>
+  const technologiesList = technologies.map((item)=> (
+    <span key={item}>{item}</span>
 
   ));
 
